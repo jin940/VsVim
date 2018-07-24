@@ -8,6 +8,7 @@
     <NoWarn>2011</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <Compile Include="Resources.fs" />
     <Compile Include="Constants.fs" />
     <Compile Include="FSharpUtil.fs" />
@@ -121,6 +122,7 @@
     <Compile Include="FSharpExtensions.fs" />
     <Compile Include="AssemblyInfo.fs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <!-- Using element form vs. attributes to work around NuGet restore bug
          https://github.com/NuGet/Home/issues/6367 
